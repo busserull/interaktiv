@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="350.75mm" height="71.17mm" version="1.1" viewBox="0 0 350.75 71.17" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <marker id="marker5677" overflow="visible" orient="auto">
+   <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="#4d4d4d" fill-rule="evenodd" stroke="#4d4d4d" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="Arrow2Lend" overflow="visible" orient="auto">
+   <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="#4d4d4d" fill-rule="evenodd" stroke="#4d4d4d" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="marker20852" overflow="visible" orient="auto">
+   <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="#4d4d4d" fill-rule="evenodd" stroke="#4d4d4d" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="marker20740" overflow="visible" orient="auto">
+   <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="#4d4d4d" fill-rule="evenodd" stroke="#4d4d4d" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="marker16123" overflow="visible" orient="auto">
+   <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="#4d4d4d" fill-rule="evenodd" stroke="#4d4d4d" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="marker14791" overflow="visible" orient="auto">
+   <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="#4d4d4d" fill-rule="evenodd" stroke="#4d4d4d" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="DotM" overflow="visible" orient="auto">
+   <path transform="matrix(.4 0 0 .4 2.96 .4)" d="m-2.5-1c0 2.76-2.24 5-5 5s-5-2.24-5-5 2.24-5 5-5 5 2.24 5 5z" fill="#4d4d4d" fill-rule="evenodd" stroke="#4d4d4d" stroke-width="1pt"/>
+  </marker>
+  <marker id="marker14151" overflow="visible" orient="auto">
+   <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="#4d4d4d" fill-rule="evenodd" stroke="#4d4d4d" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="marker13907" overflow="visible" orient="auto">
+   <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="#4d4d4d" fill-rule="evenodd" stroke="#4d4d4d" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(76.896 -61.06)">
+  <g fill="none" stroke="#4d4d4d">
+   <g stroke-width=".45">
+    <path d="m228.1 87.005h45" marker-end="url(#marker13907)"/>
+    <path d="m-41.896 87h26.252" marker-end="url(#marker16123)"/>
+    <path d="m53.049 87h26.239" marker-end="url(#marker20740)"/>
+    <path d="m135 87h26.234" marker-end="url(#marker20852)"/>
+   </g>
+   <rect x="-14.951" y="75" width="68" height="24" stroke-linecap="round" stroke-linejoin="round" stroke-width=".27"/>
+  </g>
+  <text x="-8.4024658" y="89.971802" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-8.4024658" y="89.971802" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="-8.4024658" y="89.971802" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">Regulator</tspan></tspan></text>
+  <rect x="80" y="75" width="55" height="24" fill="none" stroke="#4d4d4d" stroke-linecap="round" stroke-linejoin="round" stroke-width=".27"/>
+  <text x="86.506927" y="91.254501" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="86.506927" y="91.254501" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="86.506927" y="91.254501" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">Prosess</tspan></tspan></text>
+  <path d="m248.11 86.996v45.009c-107.17-8.2e-4 -187.66-4e-3 -295.01-5e-3v-39.261" fill="none" marker-end="url(#marker14151)" marker-start="url(#DotM)" stroke="#4d4d4d" stroke-width=".45"/>
+  <text x="168.95972" y="91.292603" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="168.95972" y="91.292603" fill="#4d4d4d" stroke-width=".26458"><tspan x="168.95972" y="91.292603" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">Sensorer</tspan></tspan></text>
+  <g fill="none" stroke="#4d4d4d">
+   <rect x="161.95" y="75" width="66.154" height="24" stroke-linecap="round" stroke-linejoin="round" stroke-width=".27"/>
+   <path d="m-76.896 87h24.289" marker-end="url(#marker14791)" stroke-width=".45"/>
+   <circle cx="-46.896" cy="87" r="5" stroke-linecap="round" stroke-linejoin="round" stroke-width=".27"/>
+  </g>
+  <g fill="#4d4d4d" font-family="Vollkorn" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+   <g font-size="12.7px" font-style="italic">
+    <text x="-66.818161" y="81.932198" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-66.818161" y="81.932198" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="-66.818161" y="81.932198" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">r</tspan></tspan></text>
+    <text x="-32.42231" y="81.932198" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-32.42231" y="81.932198" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="-32.42231" y="81.932198" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">e</tspan></tspan></text>
+    <text x="64.41523" y="81.932198" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="64.41523" y="81.932198" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="64.41523" y="81.932198" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">u</tspan></tspan></text>
+    <text x="145.90701" y="81.932198" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="145.90701" y="81.932198" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="145.90701" y="81.932198" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">x</tspan></tspan></text>
+    <text x="244.33231" y="81.932198" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="244.33231" y="81.932198" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="244.33231" y="81.932198" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">y</tspan></tspan></text>
+   </g>
+   <text x="-42.098503" y="96.761475" font-size="11.289px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="-42.098503" y="96.761475" fill="#4d4d4d" font-family="Vollkorn" font-size="11.289px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="-42.098503" y="96.761475" fill="#4d4d4d" font-family="Vollkorn" font-size="11.289px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">-</tspan></tspan></text>
+  </g>
+  <path d="m107.49 61.288v13" fill="none" marker-end="url(#Arrow2Lend)" stroke="#4d4d4d" stroke-linecap="round" stroke-width=".45"/>
+  <path d="m195.02 61.288v13" fill="none" marker-end="url(#marker5677)" stroke="#4d4d4d" stroke-linecap="round" stroke-width=".45"/>
+  <text x="112.03951" y="67.644684" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="112.03951" y="67.644684" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">v<tspan x="112.03951" y="67.644684" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></tspan></text>
+  <text x="199.56592" y="67.644684" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="199.56592" y="67.644684" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">w<tspan x="199.56592" y="67.644684" fill="#4d4d4d" font-family="Vollkorn" font-size="12.7px" font-style="italic" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/></tspan></text>
+ </g>
+</svg>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66.596mm" height="61.224mm" version="1.1" viewBox="0 0 66.596 61.224" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <style>
+    @font-face {
+      font-family:"Fullkorn";
+      src:url("../fonts/fullkorn/italic.woff2")format("woff2"),
+      url("../fonts/fullkorn/italic.woff")format("woff");
+      font-style:italic;
+      font-weight:normal;
+    }
+  </style>
+  <marker id="marker26726" overflow="visible" orient="auto">
+   <path transform="scale(-.6)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="#4d4d4d" fill-rule="evenodd" stroke="#4d4d4d" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+  <marker id="Arrow2Mend" overflow="visible" orient="auto">
+   <path transform="scale(-.6)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="#4d4d4d" fill-rule="evenodd" stroke="#4d4d4d" stroke-linejoin="round" stroke-width=".625"/>
+  </marker>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-108.25 -45.411)">
+  <path d="m149.49 54.906-1e-5 44.979c0 3.6531-5.9229 6.6146-13.229 6.6146-7.3063 0-13.229-2.9614-13.229-6.6146h1e-5v-44.979" fill="none" stroke="#4d4d4d" stroke-linecap="round" stroke-width=".27"/>
+  <path d="m148.17 74.75v25.135c0 2.9225-5.3306 5.2917-11.906 5.2917s-11.906-2.3692-11.906-5.2917v-25.135z" fill="#70b3d8"/>
+  <g fill="none" stroke="#4d4d4d">
+   <path d="m161.4 97.24v2.6458l3.9688-2.6458v2.6458z" stroke-linejoin="round" stroke-width=".27"/>
+   <path d="m112.45 50.938v2.6458l3.9688-2.6458v2.6458z" stroke-linejoin="round" stroke-width=".27"/>
+   <path d="m149.49 98.562h11.906" stroke-width=".45"/>
+  </g>
+  <g fill="#4d4d4d" font-family="Fullkorn" font-size="7.7611px" font-style="italic" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+   <text x="157.99405" y="95.337051" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="157.99405" y="95.337051" stroke-width=".26458"><tspan x="157.99405" y="95.337051" stroke-width=".26458">w</tspan></tspan></text>
+   <text x="162.83411" y="96.222969" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="162.83411" y="96.222969" stroke-width=".26458"><tspan x="162.83411" y="96.222969" fill="#4d4d4d" font-size="4.2333px" stroke-width=".26458">out</tspan></tspan></text>
+   <text x="110.10447" y="49.034969" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="110.10447" y="49.034969" stroke-width=".26458"><tspan x="110.10447" y="49.034969" stroke-width=".26458">w</tspan></tspan></text>
+   <text x="114.94453" y="49.920887" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="114.94453" y="49.920887" stroke-width=".26458"><tspan x="114.94453" y="49.920887" fill="#4d4d4d" font-size="4.2333px" stroke-width=".26458">in</tspan></tspan></text>
+  </g>
+  <g fill="none" stroke="#4d4d4d">
+   <g>
+    <g stroke-width=".45">
+     <path d="m174.62 98.562h-5.2917" stroke-linecap="round"/>
+     <path d="m165.36 98.562h3.9688"/>
+     <path d="m108.48 52.26h1.3229" stroke-linecap="round"/>
+     <path d="m112.45 52.26h-2.6458"/>
+     <path d="m127 58.875v-6.6146h-6.6146" stroke-linecap="round"/>
+     <path d="m116.42 52.26h3.9688"/>
+    </g>
+    <path d="m154.68 65.49h-4.7625" marker-end="url(#Arrow2Mend)" stroke-linecap="round" stroke-width=".27"/>
+    <path d="m117.82 65.49h4.7625" marker-end="url(#marker26726)" stroke-linecap="round" stroke-width=".27"/>
+   </g>
+   <g stroke-width=".27">
+    <path d="m117.74 105.18v-30.427" stroke-linejoin="round"/>
+    <path d="m116.42 74.75h2.6458" stroke-linecap="round"/>
+    <path d="m116.42 105.18h2.6458" stroke-linecap="round"/>
+   </g>
+  </g>
+  <text x="155.6145" y="68.151588" fill="#4d4d4d" font-family="Fullkorn" font-size="10.583px" font-style="italic" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="155.6145" y="68.151588" stroke-width=".26458"><tspan x="155.6145" y="68.151588" fill="#4d4d4d" font-size="7.7611px" stroke-width=".26458">A</tspan></tspan></text>
+  <text x="111.40848" y="92.136864" fill="#4d4d4d" font-family="Fullkorn" font-size="10.583px" font-style="italic" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="111.40848" y="92.136864" stroke-width=".26458"><tspan x="111.40848" y="92.136864" fill="#4d4d4d" font-size="7.7611px" stroke-width=".26458">h</tspan></tspan></text>
+ </g>
+</svg>

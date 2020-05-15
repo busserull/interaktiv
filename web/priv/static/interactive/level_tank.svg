@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="88.202mm" height="61.224mm" version="1.1" viewBox="0 0 88.202 61.224" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <style>
+    @font-face {
+      font-family:"Fullkorn";
+      src:url("../fonts/fullkorn/italic.woff2")format("woff2"),
+      url("../fonts/fullkorn/italic.woff")format("woff");
+      font-style:italic;
+      font-weight:normal;
+    }
+    @font-face {
+      font-family:"Kilde Sans";
+      src:url("../fonts/kilde-sans/regular.woff2")format("woff2"),
+      url("../fonts/kilde-sans/regular.woff")format("woff");
+      font-style:normal;
+      font-weight:normal;
+    }
+  </style>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform="translate(-108.25 -45.411)">
+    <rect id="tankLevel" x="124.35" y="54.906" width="23.812" height="50.271" fill="#70b3d8" stroke-width=".45236" onclick=""/>
+    <path d="m148.17 99.885c0 2.9225-5.3306 5.2917-11.906 5.2917s-11.906-2.3692-11.906-5.2917l-1.3229 3e-6v6.6146h26.458v-6.6146z" fill="#fff"/>
+    <g fill="none" stroke="#4d4d4d">
+      <path d="m149.49 54.906-1e-5 44.979c0 3.6531-5.9229 6.6146-13.229 6.6146-7.3063 0-13.229-2.9614-13.229-6.6146h1e-5v-44.979" stroke-linecap="round" stroke-width=".27"/>
+      <g>
+        <path d="m161.4 97.24v2.6458l3.9688-2.6458v2.6458z" stroke-linejoin="round" stroke-width=".27"/>
+        <path d="m112.45 50.938v2.6458l3.9688-2.6458v2.6458z" stroke-linejoin="round" stroke-width=".27"/>
+        <path d="m149.49 98.562h11.906" stroke-width=".45"/>
+      </g>
+    </g>
+    <g fill="#4d4d4d" font-family="Fullkorn" font-size="7.7611px" font-style="italic" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+      <text x="157.99405" y="95.337059" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="157.99405" y="95.337059" stroke-width=".26458"><tspan x="157.99405" y="95.337059" stroke-width=".26458">w</tspan></tspan></text>
+      <text x="162.83411" y="96.222984" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="162.83411" y="96.222984" stroke-width=".26458"><tspan x="162.83411" y="96.222984" fill="#4d4d4d" font-size="4.2333px" stroke-width=".26458">out</tspan></tspan></text>
+      <text x="110.10447" y="49.034977" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="110.10447" y="49.034977" stroke-width=".26458"><tspan x="110.10447" y="49.034977" stroke-width=".26458">w</tspan></tspan></text>
+      <text x="114.94453" y="49.920898" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="114.94453" y="49.920898" stroke-width=".26458"><tspan x="114.94453" y="49.920898" fill="#4d4d4d" font-size="4.2333px" stroke-width=".26458">in</tspan></tspan></text>
+    </g>
+    <g fill="none">
+      <g stroke="#4d4d4d" stroke-width=".45">
+        <path d="m174.62 98.562h-5.2917" stroke-linecap="round"/>
+        <path d="m165.36 98.562h3.9688"/>
+        <path d="m108.48 52.26h1.3229" stroke-linecap="round"/>
+        <path d="m112.45 52.26h-2.6458"/>
+      </g>
+      <g>
+        <path d="m129.34 58.875v-6.6146" stroke="#fff" stroke-linecap="round" stroke-width="1.35"/>
+        <path d="m129.34 58.875v-6.6146h-9.4677" stroke="#4d4d4d" stroke-linecap="round" stroke-width=".45"/>
+        <path d="m116.42 52.26h3.9688" stroke="#4d4d4d" stroke-width=".45"/>
+      </g>
+      <rect id="tankRule" x="119.06" y="54.906" width="1.3229" height="50.271" stroke-width=".26252"/>
+    </g>
+    <g id="overflowWarning" transform="translate(10.719 1.0013)">
+      <text x="151.38046" y="68.880943" fill="#e53e3a" font-family="'Kilde Sans'" font-size="4.758px" letter-spacing="0px" stroke-width=".11895" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="151.38046" y="68.880943" fill="#e53e3a" stroke-width=".11895"><tspan x="151.38046" y="68.880943" fill="#e53e3a" font-family="'Kilde Sans'" font-size="4.758px" stroke-width=".11895" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">OVERFLOW</tspan></tspan></text>
+      <path d="m150.87 60.117h23.361" fill="none" stroke="#e53e3a" stroke-width=".30867px"/>
+      <text x="150.83092" y="64.547585" fill="#e53e3a" font-family="'Kilde Sans'" font-size="4.758px" letter-spacing="0px" stroke-width=".11895" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="150.83092" y="64.547585" fill="#e53e3a" stroke-width=".11895">CONTAINER</tspan></text>
+      <path d="m150.87 70.19h23.361" fill="none" stroke="#e53e3a" stroke-width=".30867px"/>
+    </g>
+  </g>
+</svg>

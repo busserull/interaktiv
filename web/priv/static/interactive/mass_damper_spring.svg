@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="167.49mm" height="32.024mm" version="1.1" viewBox="0 0 167.49 32.024" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <defs>
+    <style>
+      @font-face {
+        font-family:"Fullkorn";
+        src:url("../fonts/fullkorn/italic.woff2")format("woff2"),
+        url("../fonts/fullkorn/italic.woff")format("woff");
+        font-style:italic;
+        font-weight:normal;
+      }
+      @font-face {
+        font-family:"Kilde Sans";
+        src:url("../fonts/kilde-sans/regular.woff2")format("woff2"),
+        url("../fonts/kilde-sans/regular.woff")format("woff");
+        font-style:normal;
+        font-weight:normal;
+      }
+    </style>
+    <marker id="marker42601" overflow="visible" orient="auto">
+      <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="#4d4d4d" fill-rule="evenodd" stroke="#4d4d4d" stroke-linejoin="round" stroke-width=".625"/>
+    </marker>
+    <marker id="Arrow2Lend" overflow="visible" orient="auto">
+      <path transform="matrix(-1.1,0,0,-1.1,-1.1,0)" d="m8.7186 4.0337-10.926-4.0177 10.926-4.0177c-1.7455 2.3721-1.7354 5.6175-6e-7 8.0354z" fill="#4d4d4d" fill-rule="evenodd" stroke="#4d4d4d" stroke-linejoin="round" stroke-width=".625"/>
+    </marker>
+  </defs>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform="translate(-23.413 -57.415)">
+    <g fill="none" stroke="#4d4d4d" stroke-linecap="round" stroke-width=".27">
+      <path d="m107.16 89.302v-31.75" stroke-dasharray="1.08000009, 1.08000009"/>
+      <path d="m190.76 89.302v-31.75" stroke-dasharray="1.08, 1.08"/>
+      <path d="m23.548 89.302v-31.75" stroke-dasharray="1.08000009, 1.08000009"/>
+    </g>
+    <g id="oobL" visibility="hidden">
+      <path d="m28.668 73.435h-2.6458" fill="none" marker-end="url(#marker42601)" stroke="#4d4d4d" stroke-linecap="round" stroke-width=".45"/>
+      <text id="oobTextL" x="32.110325" y="74.793365" fill="#4d4d4d" font-family="'Kilde Sans'" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="32.110325" y="74.793365" font-family="'Kilde Sans'" font-size="4.2333px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="32.110325" y="74.793365" fill="#4d4d4d" font-family="'Kilde Sans'" font-size="4.2333px" stroke-width=".26458" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">100</tspan></tspan></text>
+    </g>
+    <g id="oobR" visibility="hidden">
+      <path d="m185.64 73.435h2.6458" fill="none" marker-end="url(#Arrow2Lend)" stroke="#4d4d4d" stroke-linecap="round" stroke-width=".45"/>
+      <text id="oobTextR" x="182.01823" y="74.777512" fill="#4d4d4d" font-family="'Kilde Sans'" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" text-align="end" text-anchor="end" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="182.01823" y="74.777512" font-family="'Kilde Sans'" font-size="4.2333px" stroke-width=".26458" text-align="end" text-anchor="end" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"><tspan x="182.01823" y="74.777512" fill="#4d4d4d" font-family="'Kilde Sans'" font-size="4.2333px" stroke-width=".26458" text-align="end" text-anchor="end" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal">100</tspan></tspan></text>
+    </g>
+    <g id="massWhole">
+      <rect id="massRect" x="97.896" y="64.167" width="18.521" height="18.521" ry="0" fill="#fff" stroke="#4d4d4d" stroke-linecap="round" stroke-linejoin="round" stroke-width=".39375"/>
+      <text x="102.1969" y="76.335373" fill="#4d4d4d" font-family="Fullkorn" font-size="12.7px" font-style="italic" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="102.1969" y="76.335373" fill="#4d4d4d" stroke-width=".26458"><tspan x="102.1969" y="76.335373" fill="#4d4d4d" stroke-width=".26458">m</tspan></tspan></text>
+    </g>
+  </g>
+</svg>

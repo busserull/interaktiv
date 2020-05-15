@@ -1,0 +1,365 @@
+<h1 class='heading'>
+  <span class='heading-background'>
+    Hva er dette for noe?
+  </span>
+</h1>
+
+<p>
+  Siden dere nå ser på er en demoutgave for et rammeverk utviklet for å lage
+  interaktive laber og øvinger i et &ldquo;kompendiumformat&rdquo;.
+</p>
+
+<p>
+  <em>Noen</em> trengte visst noe å bruke koronatidene til.
+</p>
+
+<p>
+  Om dere bare vil se den interaktive delen, scroll ned forbi teksten. For de som
+  ønsker å vite mer om teknologiene som ligger bak siden, kan dere sende
+  meg en epost på <a href='mailto:kolbjorn.austreng@ntnu.no'>
+    kolbjorn.austreng@ntnu.no
+  </a>. Plusspoeng hvis dere først tar en titt på koden ;)
+</p>
+
+<p>
+  <strong>
+    Denne siden fungerer ikke i nettlesere som
+    er gamle som stein.
+  </strong>
+  <br>
+  Dette vil si &ldquo;Internet Explorer&rdquo; og &ldquo;Safari&rdquo;.
+  Siden fungerer heller ikke på iPhone eller iPad, fordi de produktene
+  internt bruker en teknologi som ikke støtter <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/instantiateStreaming'>
+    WebAssembly.instantiateStreaming()
+  </a>.
+</p>
+
+<h1 class='heading'>
+  <span class='heading-background'>
+    Hva er reguleringsteknikk?
+  </span>
+</h1>
+
+<figure class='figure-full' id='process_overview'>
+  <object type='image/svg+xml'
+          data='<%= Routes.static_path(@conn, "/images/process_overview.svg") %>'>
+  </object>
+  <figcaption>
+    Skjematisk fremstilling av en reguleringssløyfe.
+  </figcaption>
+</figure>
+
+<p>
+  Reguleringsteknikk er den delen av kybernetikken som har som formål å påvirke et
+  <em>system</em> slik at en ønsket tilstand oppnås og holdes. Det viktigste
+  hjelpemiddelet vi har for å gjøre dette er noe vi kaller en <em>tilbakekobling</em>.
+</p>
+
+<p>
+  Ovenfor ser vi en fremstilling av et kybernetisk system som vi kaller en
+  <em>reguleringssløyfe</em>. Blokken kalt <span class='diagram-ref'>Prosess</span>
+  representerer et system vi ønsker å regulere. Dette systemet er utsatt for en
+  <em>forstyrrelse</em> som vi kaller <span class='diagram-ref diagram-em'>v</span>, og har
+  interne tilstander som vi representerer ved <span class='diagram-ref diagram-em'>x</span>.
+</p>
+
+<p>
+  For å måle prosessens tilstand bruker vi én eller flere
+  <span class='diagram-ref'>Sensorer</span>, som er utsatt for <em>målestøy</em>
+  <span class='diagram-ref diagram-em'>w</span>. Måleresultatene våre representerer vi som
+  <span class='diagram-ref diagram-em'>y</span>.
+</p>
+
+<p>
+  Vi tar så disse måleresultatene og <em>kobler tilbake</em> ved å ta differensen
+  mellom en referanseverdi <span class='diagram-ref diagram-em'>r</span> og
+  <span class='diagram-ref diagram-em'>y</span>. Dette gir oss et mål på <em>avviket</em>
+  i prosessen, <span class='diagram-ref diagram-em'>e</span>. Dette avviket fôrer vi
+  inn i en <span class='diagram-ref'>Regulator</span>, som forsøker å styre systemet
+  mot ønsket verdi ved hjelp av et <em>pådrag</em>, representert ved
+  <span class='diagram-ref diagram-em'>u</span>.
+</p>
+
+<p>
+  Ofte vil ikke rene sensormålinger kunne gi oss et nøyaktig bilde av hva som skjer
+  i prosessen - enten fordi målingene er utsatt for mer støy enn vi kan håndtere, eller
+  fordi prosessen har tilstander som vi ikke er i stand til å måle direkte. Da blir det
+  nødvendig med en <span class='diagram-ref'>&ldquo;Estimator&rdquo;</span>, som kan
+  hjelpe oss å <em>estimere</em> prosessens sanne tilstand, basert på ufullstendige
+  målinger og kunnskap om prosessens natur. I første omgang skal vi begrense oss til
+  systemer hvor vi kan bruke målesignalene våre direkte.
+</p>
+
+<table class='center'>
+  <caption>
+    Vanlige begreper i reguleringsteknikk.
+  </caption>
+  <thead>
+    <tr>
+      <th>Begrep</th> <th>Vanlig symbol</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tilstand</td> <td><span class='diagram-ref diagram-em'>x(t)</span></td>
+    </tr>
+    <tr>
+      <td>Pådrag</td> <td><span class='diagram-ref diagram-em'>u(t)</span></td>
+    </tr>
+    <tr>
+      <td>Måleverdi</td> <td><span class='diagram-ref diagram-em'>y(t)</span></td>
+    </tr>
+    <tr>
+      <td>Forstyrrelse</td> <td><span class='diagram-ref diagram-em'>v(t)</span></td>
+    </tr>
+    <tr>
+      <td>Målestøy</td> <td><span class='diagram-ref diagram-em'>w(t)</span></td>
+    </tr>
+    <tr>
+      <td>Referanse</td> <td><span class='diagram-ref diagram-em'>r(t)</span></td>
+    </tr>
+    <tr>
+      <td>Avvik</td> <td><span class='diagram-ref diagram-em'>e(t)</span></td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h1 class='heading'>
+  <span class='heading-background'>
+    Det starter med en modell
+  </span>
+</h1>
+
+<p>
+  Når vi skal designe et reguleringssystem for en fysisk prosess må vi ha en viss
+  kjennskap om systemet vi skal styre. Dette gjelder uavhengig av om man ønsker å
+  regulere nivået i en væskebeholder, turtallet til en motor, eller retningen til
+  et skip.
+</p>
+
+<p>
+  Minimumskravet er å vite &ldquo;hvilket fortegn&rdquo;
+  et pådrag påvirker prosessen med - altså om et positivt pådrag fører til at
+  den regulerte tilstanden &ldquo;vokser&rdquo; eller &ldquo;avtar&rdquo;. For
+  de enkleste prosessene, hvor man kan tolerere at ting &ldquo;bare er
+  <em>godt nok</em>&rdquo;, kan det hende at denne forståelsen av prosessen er
+  tilstrekkelig. For litt mer avanserte systemer bør man derimot ha en litt mer
+  beskrivende matematisk modell før man går løs på design av regulator. Det
+  er dette vi skal ta for oss her.
+</p>
+
+<p>
+  I kybernetikken er vi interresert i å styre dynamiske systemer, så
+  difflikninger er et verktøy vi bruker mye. Difflikninger kan skrives med litt
+  forskjellig notasjon. Disse notasjonene er ekvivalente:
+
+  $$
+  \ddot{x} = (x)'' = \frac{d}{dt}\big(\frac{dx}{dt}\big) = \frac{d^2x}{dt^2}
+  $$
+<p>
+
+<p>
+  Med <em>prikknotasjonen</em> $\ddot{x}$ menes det at difflikningen er med
+  hensyn til tid, $t$. I kybernetikken jobber vi oftest med difflikninger av
+  tid, så prikknotasjonen brukes for det meste.
+</p>
+
+<p>
+  Det finnes flere måter å komme frem til én- eller flere difflikninger for
+  å beskrive et system, for eksempel kan vi bruke en kraftbalanse, eller
+  <em>Lagranges</em> metode. Som et eksempel skal vi bruke kraftbalanse på
+  et <em>masse-demper-fjær</em>-system. Dette vil fort bli et kjent system,
+  da det kan brukes som en tilnærming til en rekke systemer av høyere orden.
+  <a href='#mass_damper_spring'>Under</a> ser vi en illustrasjon av et
+  slikt system.
+</p>
+
+<figure class='figure-half' id='mass_damper_spring'>
+  <object type='image/svg+xml'
+          data='<%= Routes.static_path(@conn, "/images/mass_damper_spring.svg") %>'>
+  </object>
+  <figcaption>
+    Masse-demper-fjær-system.
+  </figcaption>
+</figure>
+
+<p>
+  For å beskrive <em>masse-demper-fjær</em>-systemet setter vi opp en
+  kraftbalanse ved hjelp av Newtons andre lov. Vi definerer posisjonen til
+  massen ($m$) til å være tilstanden til systemet. Denne kaller vi $x$,
+  og definerer den positiv ut mot høyre retning i figuren.
+</p>
+
+<p>
+  Deretter bestemmer vi hvilke krefter som virker på massen. Vi antar at det
+  kun virker krefter i horisontalplanet. Hvis massen er trukket en positiv lengde
+  $x$ ut mot høyre, vil den oppleve en <em>fjærkraft</em>, som gitt via Hooks lov
+  blir $F_k = -k\cdot x$. Massen vil også oppleve en <em>demperkraft</em>, som vi
+  antar å være proporsjonal med hastigheten til massen, altså $F_d = -d\cdot\dot{x}$.
+  Legg merke til at vi bruker &ldquo;<em>x-prikk</em>&rdquo; for massens
+  hastighet, da den deriverte av posisjon blir hastighet.
+</p>
+
+<p>
+  Dette er de to eneste kreftene som virker på systemet, så vi får da følgende
+  uttrykk for massens akselerasjon:
+
+  $$
+  \Sigma F = ma = m\ddot{x} = -kx -d\dot{x}\\
+  $$
+  \begin{equation}
+  \label{eq::mass_damper_spring_ddot}
+  \ddot{x} = -\frac{k}{m}x -\frac{d}{m}\dot{x}
+  \end{equation}
+</p>
+
+<p>
+  Likningen i \ref{eq::mass_damper_spring_ddot} er lineær og kan skrives på
+  tilstandsromform, se likning \ref{eq::mass_damper_spring_state_space}:
+
+  \begin{equation}
+  \label{eq::mass_damper_spring_state_space}
+  \begin{bmatrix}
+  \dot{x_1} \\
+  \dot{x_2}
+  \end{bmatrix} = \begin{bmatrix}
+  0 &amp; 1\\
+  -k/m &amp; -d/m
+  \end{bmatrix}\cdot\begin{bmatrix}
+  x_1\\
+  x_2
+  \end{bmatrix}
+  \end{equation}
+
+  En slik representasjon er ofte enklere å implementere på en datamaskin.
+  Under ser dere en interaktiv simulering av dette systemet:
+</p>
+
+
+
+
+<%# <figure class='figure-full'> %>
+<%#   <object type='image/svg+xml' %>
+<%#           data='<%= Routes.static_path(@conn, "/interactive/level_tank.svg") %1>' %>
+<%#           id='interactive2'> %>
+<%#   </object> %>
+<%# </figure> %>
+
+<%# <div class='interactive-slider'> %>
+<%#   <div class='interactive-slider-name'>Level</div> %>
+<%#   <%1# <div id='levelSliderLabel' class='interactive-slider-value'>0.00 N</div> %1> %>
+<%#   <input type='range' id='levelSlider' min='0' max='100'> %>
+<%# </div> %>
+
+<%# <div class='interactive-parameter-section'> %>
+<%#   <div class='interactive-parameter-row'> %>
+<%#     <label for='tankDensity'> %>
+<%#       Væsketetthet %>
+<%#       <span class='interactive-parameter-unit'> %>
+<%#         $\mathrm{kg}/\mathrm{m}^3$ %>
+<%#       </span> %>
+<%#     </label> %>
+<%#     <input id='tankDensity' %>
+<%#       type='text' placeholder='Væsketetthet' %>
+<%#     /> %>
+<%#   </div> %>
+
+<%#   <div class='interactive-parameter-row'> %>
+<%#     <label for='tankHeight'> %>
+<%#       Tankhøyde %>
+<%#       <span class='interactive-parameter-unit'> %>
+<%#         $\mathrm{m}$ %>
+<%#       </span> %>
+<%#     </label> %>
+<%#     <input id='tankHeight' %>
+<%#       type='text' placeholder='Tankhøyde' %>
+<%#     /> %>
+<%#   </div> %>
+
+<%#   <div class='interactive-parameter-row'> %>
+<%#     <label for='tankArea'> %>
+<%#       Bunnareal %>
+<%#       <span class='interactive-parameter-unit'> %>
+<%#         $\mathrm{m}^2$ %>
+<%#       </span> %>
+<%#     </label> %>
+<%#     <input id='tankArea' %>
+<%#       type='text' placeholder='Bunnareal' %>
+<%#     /> %>
+<%#   </div> %>
+
+<%#   <div class='interactive-parameter-row'> %>
+<%#     <button id='parametersUpdate'>Oppdater parametre</button> %>
+<%#   </div> %>
+<%# </div> %>
+
+
+
+<%# <figure class='figure-full'> %>
+<%#   <object type='image/svg+xml' %>
+<%#           data='<%= Routes.static_path(@conn, "/interactive/level_tank.svg") %1>' %>
+<%#           id='interactive2'> %>
+<%#   </object> %>
+<%# </figure> %>
+
+<%= render(
+    "mass_damper_spring.html", conn: @conn, id: "SampleSystem",
+    interactive_slider: true,
+    interactive_parameters: true
+  )
+%>
+
+<h1 class='heading'>
+  <span class='heading-background'>
+    Videre funksjonalitet
+  </span>
+</h1>
+
+<p>
+  I dette rammeverket kan man enkelt inkludere figurer,
+</p>
+
+<figure class='figure-almost-full'>
+  <object type='image/svg+xml'
+          data='<%= Routes.static_path(@conn, "/images/level_tank_with_measurements.svg") %>'
+          id='interactive2'>
+  </object>
+</figure>
+
+<p>
+  som man deretter kan beskrive med likninger:
+  \begin{equation}
+  \label{eq::level_tank}
+  \dot{h} = -\frac{k}{\rho A}h + \frac{w_{in}}{\rho A}
+  \end{equation}
+  Disse likningene kan refereres til: \ref{eq::level_tank}.
+</p>
+
+<p>
+  Figurene kan også gjøres interaktive:
+</p>
+
+<figure class='figure-full'>
+  <object type='image/svg+xml'
+          data='<%= Routes.static_path(@conn, "/interactive/level_tank.svg") %>'
+          id='_window_levelTank'>
+  </object>
+</figure>
+
+<div class='interactive-slider'>
+  <div class='interactive-slider-name'>Ventil inn</div>
+  <div id='levelSliderLabel' class='interactive-slider-value'>0 %</div>
+  <input type='range' id='levelSlider' min='0' max='100'>
+</div>
+
+<p style='margin-top: 20px;'>
+  Alt av simuleringer kjører via WebAssembly i nettleseren, så serveren
+  går like raskt uansett belastning. Allikevel er kommunikasjon via
+  WebSockets mulig, om man ønsker å sende informasjon &ldquo;hjem igjen&rdquo;.
+</p>
+
+<p style='margin-top: 75px; margin-bottom: 50px;'>
+  Lykke til på eksamen i TilpDat :)<br>
+  - Kolbjørn Austreng
+</p>

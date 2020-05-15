@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="49.639mm" height="25.286mm" version="1.1" viewBox="0 0 49.639 25.286" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs><style>@font-face{font-family:"Fullkorn";src:url("../fonts/fullkorn/regular.woff2")format("woff2"),url("../fonts/fullkorn/regular.woff")format("woff");font-style:normal;font-weight:normal;}@font-face{font-family:"Fullkorn";src:url("../fonts/fullkorn/italic.woff2")format("woff2"),url("../fonts/fullkorn/italic.woff")format("woff");font-style:italic;font-weight:normal;}</style>
+  <pattern id="pattern15547" patternTransform="matrix(.1852 0 0 .2263 58.115 15.125)" xlink:href="#pattern15527"/>
+  <pattern id="pattern15527" width="20.707108" height="170.70711" patternTransform="matrix(.26458 0 0 .26458 58.115 15.125)" patternUnits="userSpaceOnUse">
+   <path d="m20.354 0.35355-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 10.354-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 20.354-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 30.354-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 40.354-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 50.354-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 60.354-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 70.354-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 80.354-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 90.354-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 100.35-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 110.35-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 120.35-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 130.35-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 140.35-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+   <path d="m20.354 150.35-20 20" fill="none" stroke="#4d4d4d" stroke-width="1px"/>
+  </pattern>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-73.776 -20.588)">
+  <g fill="none" stroke="#4d4d4d">
+   <rect x="104.7" y="25.668" width="18.521" height="18.521" ry="0" stroke-linecap="round" stroke-linejoin="round" stroke-width=".39375"/>
+   <g stroke-width=".45">
+    <path d="m76.729 45.646v-21.167" stroke-linecap="round"/>
+    <path d="m76.729 28.712h2.6458c0.80999-1e-6 1.3527 0.24006 1.538 1.3681s1.0039 1.2778 1.4918 1.2778 1.4833-0.24292 1.9763-0.83509c0.45623-0.54803 0.6777-1.3216 0.6777-2.2257s-0.2385-2.4792-1.0084-2.4792-1.0084 1.5751-1.0084 2.4792 0.22147 1.6776 0.6777 2.2257c0.49298 0.59217 1.4883 0.83509 1.9844 0.83509s1.4914-0.24292 1.9844-0.83509c0.45623-0.54803 0.6777-1.3216 0.6777-2.2257s-0.2385-2.4792-1.0084-2.4792-1.0084 1.5751-1.0084 2.4792 0.22147 1.6776 0.6777 2.2257c0.49298 0.59217 1.4883 0.83509 1.9844 0.83509 0.49609 0 1.4914-0.24292 1.9844-0.83509 0.45623-0.54803 0.6777-1.3216 0.6777-2.2257s-0.2385-2.4792-1.0084-2.4792-1.0084 1.5751-1.0084 2.4792 0.22147 1.6776 0.6777 2.2257c0.49298 0.59217 1.4883 0.83509 1.9844 0.83509s1.4914-0.24292 1.9844-0.83509c0.45623-0.54803 0.6777-1.3216 0.6777-2.2257s-0.2385-2.4792-1.0084-2.4792-1.0084 1.5751-1.0084 2.4792 0.22147 1.6776 0.6777 2.2257c0.49298 0.59217 1.1124 0.83509 1.6085 0.83509s1.3147-0.14973 1.4999-1.2778 0.72798-1.3681 1.538-1.3681h6.2225"/>
+    <rect x="83.344" y="39.296" width="11.906" height="2.6458" ry="6.3578e-7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="m83.344 40.619h-6.6146"/>
+    <path d="m95.25 40.619h9.2604"/>
+   </g>
+  </g>
+  <rect x="73.776" y="24.479" width="2.9531" height="21.167" ry="6.3578e-7" fill="url(#pattern15547)"/>
+  <g fill="#4d4d4d" font-family="Fullkorn" font-style="italic" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+   <text x="108.99852" y="37.837166" font-size="12.7px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="108.99852" y="37.837166" fill="#4d4d4d" stroke-width=".26458"><tspan x="108.99852" y="37.837166" fill="#4d4d4d" stroke-width=".26458">m</tspan></tspan></text>
+   <text x="98.564262" y="27.600788" font-size="9.8778px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="98.564262" y="27.600788" fill="#4d4d4d" stroke-width=".26458"><tspan x="98.564262" y="27.600788" fill="#4d4d4d" stroke-width=".26458">k</tspan></tspan></text>
+   <text x="98.035095" y="39.771629" font-size="9.8778px" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;line-height:1.25" xml:space="preserve"><tspan x="98.035095" y="39.771629" fill="#4d4d4d" stroke-width=".26458"><tspan x="98.035095" y="39.771629" fill="#4d4d4d" stroke-width=".26458">d</tspan></tspan></text>
+  </g>
+ </g>
+</svg>

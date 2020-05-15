@@ -1,0 +1,31 @@
+<%= render AtterstaggeWeb.SimulationView, "window.html",
+  conn: @conn, id: @id, system: "mass_damper_spring"
+%>
+
+<%= if @interactive_slider do %>
+  <%= render AtterstaggeWeb.SimulationView, "slider.html",
+    id: @id, tag: "force", name: "Kraft", min: -100, max: 100
+  %>
+<% end %>
+
+<%= if @interactive_parameters do %>
+  <%= render AtterstaggeWeb.SimulationView, "parameters_panel.html",
+    id: @id,
+    rows: [
+      %{
+        name: "Fjærstivhet",
+        placeholder: "Stivhet",
+        tag: "spring",
+        units: {[{"kg", 2}], [{"s", 2}]},
+        value: "1.0"
+      },
+      %{
+        name: "Demperstyrke",
+        placeholder: "Demper",
+        tag: "damper",
+        units: {[{"kg", 2}], [{"s", 1}]},
+        value: "0.1"
+      }
+    ]
+  %>
+<% end %>

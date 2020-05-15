@@ -1,0 +1,14 @@
+<div class='interactive-slider'>
+  <div class='interactive-slider-name'>
+    <%= @name %>
+  </div>
+
+  <div id='_label_<%= @id %><%= @tag %>' class='interactive-slider-value'>
+  </div>
+
+  <input id='_slider_<%= @id %><%= @tag %>'
+         type='range'
+         min='<%= @min %>'
+         max='<%= @max %>'
+         >
+</div>

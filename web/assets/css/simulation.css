@@ -1,0 +1,56 @@
+/* 1. Base */
+
+/* 2. Shared */
+
+.page {
+    min-width: 300px;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-row {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.row * {
+  margin-left: 6px;
+}
+
+/* 3. Specific */
+
+.simulator-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.simulator-window {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 15px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+/* 4. Responsive */
+
+@media only screen and (min-width: 700px){
+    .simulator-container {
+        width: 80%;
+    }
+}

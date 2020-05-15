@@ -1,0 +1,38 @@
+<form id='_parameters_<%= @id %>'
+      class='interactive-parameter-section'
+      action=''
+      method='get'
+      autocomplete='off'
+      >
+
+  <%= for row <- @rows do %>
+    <div class='interactive-parameter-row'>
+      <label for='_input_<%= @id %><%= row.tag %>'>
+        <%= row.name %>
+        <span class='interactive-parameter-unit' tabindex='-1'>
+          ( <%= latex_units(row.units) %> )
+        </span>
+      </label>
+
+      <input id='_input_<%= @id %><%= row.tag %>'
+             name='<%= row.tag %>'
+             type='number'
+             step='0.01'
+             placeholder='<%= row.placeholder %>'
+             value='<%= row.value %>'
+             >
+    </div>
+  <% end %>
+
+  <div class='interactive-parameter-row'>
+    <button type='submit'>
+      Oppdater Parametre
+    </button>
+  </div>
+</form>
+
+<script>
+  document.querySelector('#_parameters_<%= @id %>').addEventListener(
+    'submit', event => { event.preventDefault(); }
+  );
+</script>

@@ -1,0 +1,28 @@
+<figure class='figure-full'>
+  <object data='<%= Routes.static_path(@conn, "/interactive/#{@system}.svg") %>'
+          type='image/svg+xml'
+          id='_window_<%= @id %>'
+          >
+  </object>
+</figure>
+
+<script>
+  window.simulation.push({
+    'id': '<%= @id %>',
+    'system': '<%= @system %>',
+    'init': {
+      'mass': 1.0,
+      'damper': 0.1,
+      'spring': 1.0,
+      'position': 2.0,
+      'velocity': 0.0
+    },
+    'window': {
+      'max': 2.0
+    },
+    'slider': {
+      'max': 2.0,
+      'min': -2.0
+    }
+  });
+</script>
